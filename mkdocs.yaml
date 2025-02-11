@@ -1,10 +1,10 @@
 # Project information
 site_name: Hawk Center Documentation
-site_url: https://hawk-center.github.io/documentation/
+site_url: https://hawk-center.github.io/docs/
 
 # Repository
-repo_name: hawk-center/documentation
-repo_url: https://github.com/Hawk-Center/hawk-sdk
+repo_name: hawk-center/docs
+repo_url: https://github.com/hawk-center/docs
 
 theme:
   name: material
