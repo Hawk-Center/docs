@@ -25,7 +25,7 @@
 
 ## Trading Models
 
-- [API Reference](api/trading-models.md)
+- [API Reference](production_engineering/api/trading-models.md)
 - Available Models
   - EMA Cross Strategies
   - RSI Strategy
@@ -71,11 +71,11 @@
 
 ## API Reference
 
-- [Model State Generator API](api/model-state-generator.md)
-- [Trading Model Base Classes](api/trading-models.md)
-- [Portfolio Simulator API](api/portfolio-simulator.md)
-- [Model Aggregator API](api/model-aggregator.md)
-- [Common Utilities](api/common.md)
+- [Model State Generator API](production_engineering/api/model-state-generator.md)
+- [Trading Model Base Classes](production_engineering/api/trading-models.md)
+- [Portfolio Simulator API](production_engineering/api/portfolio-simulator.md)
+- [Model Aggregator API](production_engineering/api/model-aggregator.md)
+- [Common Utilities](production_engineering/api/common.md)
 
 ## Operational Guide
 

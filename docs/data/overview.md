@@ -1,0 +1,1 @@
+Clean raw data is stored in BigQuery in a denormalized format. This data can be accessed through the [hawk-sdk](https://hawk-center.github.io/hawk-sdk/) or through GCS.

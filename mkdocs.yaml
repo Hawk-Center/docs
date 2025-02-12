@@ -1,6 +1,7 @@
 # Project information
 site_name: Hawk Center Documentation
 site_url: https://hawk-center.github.io/docs/
+dev_addr: 127.0.0.1:8000
 
 # Repository
 repo_name: hawk-center/docs
@@ -11,6 +12,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     - navigation.expand
     - search.highlight
     - content.code.copy
@@ -35,32 +37,16 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Installation: overview/getting-started.md
-      - Development Setup: overview/development-setup.md
-  - Architecture:
-      - Overview: overview/architecture.md
-      - Components: architecture/components.md
-  - API Reference:
-      - Model State Generator:
-          - Base Classes: api/model-state-generator/base.md
-          - Feature Engineering: api/model-state-generator/features.md
-          - Configuration: api/model-state-generator/config.md
-      - Trading Models:
-          - Base Model: api/trading-models/base.md
-          - Strategy Models: api/trading-models/strategies.md
-          - Utilities: api/trading-models/utils.md
-      - Portfolio Simulation:
-          - Simulator: api/portfolio-simulation/simulator.md
-          - Performance Metrics: api/portfolio-simulation/metrics.md
-      - Model Aggregation:
-          - Optimizer: api/model-aggregation/optimizer.md
-          - Weight Allocation: api/model-aggregation/weights.md
-      - Common:
-          - Types: api/common/types.md
-          - Enums: api/common/enums.md
-          - Utils: api/common/utils.md
-  - Contributing: CONTRIBUTING.md
+  - Data:
+      - Overview: data/overview.md
+      - Sources:
+          - FactSet: data/sources/factset.md
+
+  - Research:
+      - Overview: research/overview.md
+      - Model States:
+          - Hawk Forward Fund: research/model_states/hawk-forward-fund.md
+
 
 markdown_extensions:
   - pymdownx.highlight:

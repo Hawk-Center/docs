@@ -136,7 +136,7 @@ git commit --allow-empty -m "[HAWK-XX] Your feature description"
 git push -u origin feature/your-feature-name
 ```
 
-3. Follow the development guidelines in [CONTIBUTING.md](../CONTRIBUTING.md)
+3. Follow the development guidelines in [CONTIBUTING.md](../../CONTRIBUTING.md)
 
 ## Troubleshooting
 
